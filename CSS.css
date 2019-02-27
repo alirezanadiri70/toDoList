@@ -19,33 +19,45 @@ body{
 }
 .t:hover{
     color:red;
+    transition-duration: 0.5s;
 }
 .o:hover{
    color:blue;
+   transition-duration: 0.5s;
 }
 .d:hover{
    color:green;
+   transition-duration: 0.5s;
 }
 .l:hover{
   color:yellow;
+  transition-duration: 0.5s;
 }
 .i:hover{
   color:purple;
+  transition-duration: 0.5s;
 }
 .s:hover{
   color:cyan;
+  transition-duration: 0.5s;
 }
 .t:hover{
   color:pink;
+  transition-duration: 0.5s;
 }
 .text-header{
   color:#fff;
+  transition-duration: 0.5s;
 }
 .text-header{
   position: relative;
   left:305px;
   top:80px;
   font-size: 20px;
+}
+.text-header:hover{
+  font-size:22px;
+  transition-duration: 0.9s;
 }
 #form{
   position: relative;
@@ -55,8 +67,15 @@ body{
 #input{
   width:400px;
   height:20px;
-  font-size: 13px;
+  font-size: 14px;
+  border:2px solid #4da6ff;
 }
 #btn{
-  font-size: 1em;
+  font-size: 1.2em;
+  background-color: #4da6ff;
+  color:#fff;
+  border:none;
+  position: relative;
+  top:2px;
+  left:-5px;
 }

@@ -19,6 +19,8 @@ window.onload = function(){
                     list.style.bordertop = "2px solid white";
                 }
                 var text = input.value;
+                var item = `<li id="li-${id}">${text}
+                            <input id= "box-${id}" class= "checkboxes" type="checkbox"
             }
         }
 
